@@ -15,7 +15,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
-    background-color: rgba(118, 26, 211, 0.693);
+    background-color: rgba(26, 38, 211, 0.693);
     font-family: 'Montserrat', sans-serif;
     height: 100%;
 }
@@ -51,7 +51,9 @@ a{
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: rgba(118, 26, 211, 0.693);
+    background-color: white;
+    color: rgba(26, 38, 211, 0.693);
+
   }
 
 .fa:hover {
@@ -59,7 +61,7 @@ a{
   }
 
   footer{
-    color: rgba(118, 26, 211, 0.693);
+    color: rgba(26, 38, 211, 0.693);
     background-color: white;
     justify-content: center;
     text-align: center;
@@ -71,9 +73,39 @@ footer div ul{
     justify-content: center;
     display: flex;
     list-style-type: none;
-    color: rgba(118, 26, 211, 0.693);
+    color: rgba(26, 38, 211, 0.693);
 }
 
 footer div ul li{
-    color: rgba(118, 26, 211, 0.693);
+    background-color: rgba(26, 38, 211, 0.693);
+}
+
+.main-bod .projects-list{
+    list-style-type: none;
+}
+
+.main-bod .projects-list li{
+    height: 10vh;
+    width: 100%;
+    color: rgba(26, 38, 211, 0.693);
+    padding: 2vh;
+    margin: 3vh;
+    background-color: white;
+
+}
+
+.main-bod .projects-list li a{
+    color: rgba(26, 38, 211, 0.693);
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+.main-bod table tr,th,td{
+    font-size: 3vh;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+th{
+    font-size: 5vh;
 }
